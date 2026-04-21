@@ -13,6 +13,17 @@ This is a Next.js fullstack application with the following core technologies:
 - **Biome** - Linter and formatter for JavaScript/TypeScript
 - **Vercel** - Deployment platform (project appears to be deployed there)
 
+### Testing
+- **vitest**
+
+### API Development
+- **NodeJS API Framework**
+  - https://www.npmjs.com/package/nestjs-zod
+  - https://www.npmjs.com/package/express-zod-api
+  - https://github.com/anatine/zod-plugins/tree/main/packages/zod-nestjs
+  - Create type-safe APIs with Zod validation
+  - Choose between Express or NestJS based on project complexity
+
 ## Project Structure
 
 ```
@@ -92,13 +103,6 @@ The project is configured for deployment on Vercel (based on the git remote URL)
   - https://better-auth.com/
   - npx skills add better-auth/skills
   - Modern authentication library for Next.js with built-in providers
-
-### API Development
-- **NodeJS API Framework**
-  - https://www.npmjs.com/package/express-zod-api
-  - https://github.com/anatine/zod-plugins/tree/main/packages/zod-nestjs
-  - Create type-safe APIs with Zod validation
-  - Choose between Express or NestJS based on project complexity
 
 ### API Documentation**
 - **Swagger/OpenAPI** - Standardized API documentation
