@@ -14,15 +14,22 @@ This is a Next.js fullstack application with the following core technologies:
 - **Vercel** - Deployment platform (project appears to be deployed there)
 
 ### Testing
-- **vitest**
+ - **Vitest** - Unit and integration testing framework
+   - Fast, modern test runner with Vite's developer experience
+   - Native ES modules support and TypeScript out of the box
+   - Parallel test execution for improved performance
+   - Compatible with Jest API for easy migration
+   - Integration with MSW for API mocking in tests
+   - Setup file: `src/test/setup.ts` with custom matchers
+   - Configuration: `vitest.config.ts`
+   - Run tests: `pnpm test` or `pnpm test:coverage`
 
 ### API Development
 - **NodeJS API Framework**
-  - https://www.npmjs.com/package/nestjs-zod
   - https://www.npmjs.com/package/express-zod-api
   - https://github.com/anatine/zod-plugins/tree/main/packages/zod-nestjs
   - Create type-safe APIs with Zod validation
-  - Choose between Express or NestJS based on project complexity
+  - https://medium.com/@lucarestagno/how-to-validate-your-next-js-api-with-zod-and-typescript-51fa637c6231
 
 ## Project Structure
 
